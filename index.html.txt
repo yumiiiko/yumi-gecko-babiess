@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Leopard gecko babies for sale by Yumi">
+    <title>Yumi's Gecko Babies</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffcc00;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            margin: 40px 0;
+        }
+        h2 {
+            color: #ff6600;
+        }
+        .about, .geckos {
+            background-color: #fdfd96;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .about p {
+            font-size: 1.2em;
+        }
+        .gecko-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .gecko-item {
+            background-color: #f9a602;
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        a {
+            color: #ff6600;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Yumi's Gecko Babies</h1>
+    <p>Funky, colorful leopard geckos ready for new homes!</p>
+</header>
+
+<div class="container">
+
+    <section class="about">
+        <h2>About Yumi</h2>
+        <p>Hi there! I'm Yumi, a passionate leopard gecko breeder with a love for all things colorful and unique. I focus on raising healthy, happy geckos with funky patterns and vibrant colors. Take a look at my latest available babies below!</p>
+    </section>
+
+    <section class="geckos">
+        <h2>Available Gecko Babies</h2>
+        <div class="gecko-list">
+            <div class="gecko-item">
+                <h3>Sunburst</h3>
+                <p>Bright orange with stunning patterns</p>
+                <p><strong>$80</strong></p>
+            </div>
+            <div class="gecko-item">
+                <h3>Galaxy</h3>
+                <p>Spotted with shades of purple and black</p>
+                <p><strong>$90</strong></p>
+            </div>
+            <div class="gecko-item">
+                <h3>Blueberry</h3>
+                <p>A rare blue-hued gecko with light spots</p>
+                <p><strong>$120</strong></p>
+            </div>
+            <!-- Add more geckos as needed -->
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>Want to learn more or adopt a baby gecko? <a href="mailto:yumi@geckobabies.com">Contact me!</a></p>
+    <p>&copy; 2024 Yumi's Gecko Babies</p>
+</footer>
+
+</body>
+</html>
